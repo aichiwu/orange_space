@@ -34,6 +34,9 @@
 	padding: 10px;
 	border-top: 1px solid #eee;
 }
+#main_space .space_center .list a{
+	color: black;
+}
 #main_space .space_center .list:hover span{
 	color: rgb(228,82,46);
 }
