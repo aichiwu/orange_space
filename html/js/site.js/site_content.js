@@ -19,6 +19,7 @@
 					left.addClass("left");
 					list.append(left);
 					var a = $("<a/>");
+					a[0].href = arr[j].site_url;
 					left.append(a);
 					var h3 = $("<h3/>");
 					a.append(h3);
