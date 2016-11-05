@@ -44,6 +44,9 @@
 						state.addClass("hdxq_state");
 						state.text(arr[i].activity_state);
 						div.append(state);
+						div.on("click",function(){
+							window.location.assign(this.data.activity_url);
+						})
 					}
 					var states = $(".hdxq_state");
 					for(var i = 0; i < states.length; i++) {

@@ -13,6 +13,7 @@
 					div.addClass("swiper-slide");
 					div[0].data = arr[i];
 					var a = $("<a/>");//下面的添加a标签的href属性
+					a[0].href = arr[i].lunbo_url;
 					a.css("cursor","pointer");
 					var img = $("<img/>");
 					img[0].src = "../../php/img/index_lunbo/" + arr[i].lunbo_img;
