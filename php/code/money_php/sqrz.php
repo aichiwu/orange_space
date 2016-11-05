@@ -30,7 +30,7 @@
   	$result = $mysql->query($sqlstr);
 	$a = move_uploaded_file($tmp,"../../../business_plan/{$timer}.{$houzhui}");
 	echo $a;
-//	header("location: http://127.0.0.1/%E6%A1%94%E5%AD%90%E7%A9%BA%E9%97%B4/html/html/index.html");
+	header("location: http://127.0.0.1/%E6%A1%94%E5%AD%90%E7%A9%BA%E9%97%B4/html/html/index.html");
   	}
  	
   //获取文件类型后缀

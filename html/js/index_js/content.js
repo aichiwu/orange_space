@@ -38,10 +38,14 @@
 					state.addClass("hdxq_state");
 					state.text(arr[i].activity_state);
 					div.append(state);
+					div.on("click",function(){
+						window.location.assign(this.data.activity_url);
+					})
 				}
 			}
 			creatDiv(my);
 			var a = $("<a/>");
+			a[0].href="activity_day.html?name=全部活动"
 			a.text("全部活动");
 			a.addClass("hdxq_a");
 			hdxq.append(a);
